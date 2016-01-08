@@ -194,6 +194,8 @@ projects.display = function() {
 	}
 }
 
+projects.display();
+
 /*function locationizer(work) {
     var myLocation = [];
     

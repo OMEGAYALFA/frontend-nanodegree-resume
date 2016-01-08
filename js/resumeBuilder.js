@@ -189,9 +189,9 @@ projects.display = function() {
 			for (image in projects.projects[project].images) {
 				var formattedProjImage = HTMLprojectImage.replace("%data", projects.projects[project].images[image]);
 				$(".project-entry:last").append(formattedProjImage);
-			};
-		};
-	};
+			}
+		}
+	}
 }
 
 /*function locationizer(work) {

@@ -26,7 +26,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #fff;
   line-height: 48px;
   display: inline;
 }
@@ -34,7 +34,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: #07589c;
   line-height: 29px;
   padding: 10px;
 }
@@ -42,8 +42,8 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000;
-  line-height: 22px;
+  color: #4181b7;
+  line-height: 30px;
 }
 
 h4 {
@@ -54,13 +54,11 @@ h4 {
 }
 
 h2,
-h3,
 h4,
 h5 {
   padding:10px 5%;
 
 }
-
 
 .date-text {
   font-style: italic;
@@ -100,21 +98,26 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #0f6fed;
   display: none;
 }
 
-.orange {
-  background-color: #f5ae23;
+.blue {
+  background-color: #0f6fed;
 }
 
-.orange-text {
-  color: #f5ae23;
+.blue-text {
+  color: #6cabff;
 }
 
 .white-text {
   font-weight: bold;
   color: #fff;
+}
+
+.qtr {
+  width: 250px;
+  height: 200px;
 }
 
 .gray {
@@ -127,9 +130,9 @@ a {
   background-color: #4a4a4a;
 }
 
-/* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-image: url("../images/header_img.jpg");
+  background-size: cover;
 }
 
 .flex-box {
@@ -154,6 +157,7 @@ ul {
   padding: 10px;
   width: 200px;
   display: none;
+  border-radius: 30px;
 }
 
 img {
@@ -169,6 +173,12 @@ span {
 }
 
 /* Media queries to handle various device widths */
+@media only screen and (max-width: 1550px) {
+  .qtr {
+    width: 200px;
+    height: 150px;
+  }
+}
 
 @media only screen and (max-width: 1024px) {
   #lets-connect {
